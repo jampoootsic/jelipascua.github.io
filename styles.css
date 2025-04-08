@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.jumbotron{
+    background-image: url('https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Replace 'your-background-image-url.jpg' with your image URL */
+    background-size: cover; /* Adjust to your preference */
+    background-position: center center; /* Adjust to your preference */
+    background-repeat: no-repeat; /* Adjust to your preference */
+    text-align: center; /* Center the content within .cv */
+    color: white; /* Set text color to white for better visibility on the background */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.header-image {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.header-image img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+.main{
+    background-color: rgb(59, 106, 146);
+}
+
+.section-title{
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.8379726890756303) 0%, rgba(0,0,0,0.23853291316526615) 51%, rgba(0,0,0,0.006039915966386533) 87%);
+    text-align: center;
+    margin: 20px;
+    color: #ffffff;
+}
+
+
+.about-image img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    margin-left: 20px;
+    align-items: center;
+}
+
+.address p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.educ-logo{
+    padding: 20px;
+}
+
+.ex-circle, .cert-circle{
+    width: 300px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+    border-radius: 10%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */ 
+}
+
+.img-skill{
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 10%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */ 
+}
